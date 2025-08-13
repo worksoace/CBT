@@ -16,7 +16,7 @@ I built this project for my students that I teach math. It’s a simple computer
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/cbt-system.git
+   git clone https://github.com/worksoace/CBT.git
    ```
 2. Import the provided `cbt.sql` into MySQL/MariaDB.
 3. Edit `config.php` with your database credentials.
