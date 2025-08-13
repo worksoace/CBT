@@ -15,12 +15,17 @@ I built this project for my students that I teach math. It’s a simple computer
 
 1. Clone the repo:
 
-   ```bash
+   ```
+   <pre>
    git clone https://github.com/worksoace/CBT.git
+   </pre>
    ```
 2. Import the provided `cbt.sql` into MySQL/MariaDB.
 3. Edit `config.php` with your database credentials.
 4. Place the project in your web server directory.
+
+
+<pre>
 
 ## Sample SQL – Add Students
 
@@ -39,6 +44,8 @@ VALUES
 ('What is 2 + 2?', '3', '4', '5', '6', 'B'),
 ('Solve: 5 × 3', '8', '15', '10', '20', 'B');
 ```
+
+</pre>
 
 ## License
 
