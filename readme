@@ -1,0 +1,48 @@
+
+---
+
+# CBT Exam System
+
+I built this project for my students that I teach math. It’s a simple computer-based test (CBT) system where they can log in, take a basic test, and get results instantly. You can adapt it for any subject.
+
+## Features
+
+* Add students & set passwords
+* Add multiple-choice questions
+* Store and view results automatically
+
+## Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/cbt-system.git
+   ```
+2. Import the provided `cbt.sql` into MySQL/MariaDB.
+3. Edit `config.php` with your database credentials.
+4. Place the project in your web server directory.
+
+## Sample SQL – Add Students
+
+```sql
+INSERT INTO students (student_name, username, password)
+VALUES
+('John Doe', 'john123', 'pass123'),
+('Mary Jane', 'maryj', 'pass456');
+```
+
+## Sample SQL – Add Exam Questions
+
+```sql
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES
+('What is 2 + 2?', '3', '4', '5', '6', 'B'),
+('Solve: 5 × 3', '8', '15', '10', '20', 'B');
+```
+
+## License
+
+Open-source under the [MIT License](LICENSE).
+
+---
+
